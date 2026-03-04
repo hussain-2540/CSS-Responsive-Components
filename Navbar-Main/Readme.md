@@ -14,9 +14,10 @@ A modern, mobile-first navigation bar built with semantic HTML and CSS Flexbox. 
 ![Navbar Desktop View](../assets/Navbar-Desktop.png) 
 
 ### Mobile View (Menu Toggled)
-![Navbar Mobile View](../assets/Navbar-Mobile-1.jpg)
-
-![Navbar Mobile View](../assets/Navbar-Mobile-2.jpg)
+<p align="left">
+  <img src="../assets/Navbar-Mobile-1.jpg" width="280" alt="Pricing Card Mobile" />
+  <img src="../assets/Navbar-Mobile-2.jpg" width="280" alt="Pricing Card Mobile" />
+</p>
 
 ## 🛠️ Technical Details
 - **Logic:** Mobile-first responsive design.
