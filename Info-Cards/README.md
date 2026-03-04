@@ -11,14 +11,13 @@ A collection of content-rich cards designed to present complex educational data 
 ## 📸 Project Preview
 
 ### Desktop View
-![Info Cards Desktop](../Assets/Info-Cards-Desktop.png) 
-*(Note: Replace with your actual filename in assets folder)*
+![Info Cards Desktop](../assets/Info-Cards-Desktop.png) 
 
 ### Mobile View (Stacking Logic)
 <p align="left">
-  <img src="../Assets/Info-Cards-Mobile-1.jpg" width="350" alt="Mobile View" />
-  <img src="../Assets/Info-Cards-Mobile-2.jpg" width="350" alt="Mobile View" />
-  <img src="../Assets/Info-Cards-Mobile-3.jpg" width="350" alt="Mobile View" />
+  <img src="../assets/Info-Cards-Mobile-1.jpg" width="350" alt="Mobile View" />
+  <img src="../assets/Info-Cards-Mobile-2.jpg" width="350" alt="Mobile View" />
+  <img src="../assets/Info-Cards-Mobile-3.jpg" width="350" alt="Mobile View" />
 </p>
 
 ## 🛠️ Technical Implementation
