@@ -21,6 +21,6 @@ A collection of content-rich cards designed to present complex educational data 
 </p>
 
 ## 🛠️ Technical Implementation
-- **Layout:** CSS Flexbox/Grid for card alignment.
+- **Layout:** CSS Flexbox for card alignment.
 - **Styling:** Mobile-first media queries to ensure readability on small screens.
 - **Themes:** High-contrast text for better accessibility and user experience.
