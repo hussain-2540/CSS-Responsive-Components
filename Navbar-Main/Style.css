@@ -1,0 +1,90 @@
+body {
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: rgb(19, 18, 18);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+   color: white;
+   font-family:sans-serif;
+   font-style: italic;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background-color: white;
+    margin: 4px 0;
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-bar {
+        padding-top: 8px;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(19, 18, 18);
+        display: none;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links>ul>li {
+        border-bottom: 0.5px solid white;
+        width: 100vw;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    #menu-toggle:checked~.nav-links {
+        display: flex;
+    }
+}
