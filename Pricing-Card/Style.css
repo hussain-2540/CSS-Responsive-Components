@@ -1,0 +1,125 @@
+body {
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(68, 68, 68);
+    width: 70%;
+    margin: 50px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.model {
+    text-align: center;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.heading>h1 {
+    margin-top: 10px;
+    color: blue;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.list {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+span {
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(2, 83, 2);
+}
+
+.tool-use {
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    text-align: center;
+    background-color: blue;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 1.8em;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 48em) {
+    .content {
+        flex-direction: row;
+        gap: 90px;
+    }
+    .model {
+        gap: 15px;
+    }
+    .button:hover {
+        background-color: rgb(2, 2, 139);
+    }
+
+    .button {
+        height: 1.9em;
+    }
+}
