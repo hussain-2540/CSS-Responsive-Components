@@ -15,9 +15,9 @@ A collection of content-rich cards designed to present complex educational data 
 
 ### Mobile View (Stacking Logic)
 <p align="left">
-  <img src="../assets/Info-Cards-Mobile-1.jpg" width="350" alt="Mobile View" />
-  <img src="../assets/Info-Cards-Mobile-2.jpg" width="350" alt="Mobile View" />
-  <img src="../assets/Info-Cards-Mobile-3.jpg" width="350" alt="Mobile View" />
+  <img src="../assets/Info-Cards-Mobile-1.jpg" width="300" alt="Mobile View" />
+  <img src="../assets/Info-Cards-Mobile-2.jpg" width="300" alt="Mobile View" />
+  <img src="../assets/Info-Cards-Mobile-3.jpg" width="300" alt="Mobile View" />
 </p>
 
 ## 🛠️ Technical Implementation
