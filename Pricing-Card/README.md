@@ -15,7 +15,7 @@ A high-conversion pricing component designed with a clean, professional aestheti
 
 ### Mobile View
 <p align="left">
-  <img src="../assets/Pricing-Card-Mobile.jpg" width="350" alt="Pricing Card Mobile" />
+  <img src="../assets/Pricing-Card-Mobile.jpg" width="300" alt="Pricing Card Mobile" />
 </p>
 
 ## 🛠️ Technical Details
