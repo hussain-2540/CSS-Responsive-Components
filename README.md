@@ -1,4 +1,4 @@
-# CSS Responsive Components 🚀
+# CSS Responsive Components
 
 Welcome to my UI component library! This repository is a dedicated space where I document my journey of mastering modern CSS layouts. 
 
